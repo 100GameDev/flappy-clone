@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dcr8jurvtbnf6"]
+
+[ext_resource type="Texture2D" uid="uid://dgsu52h2ar5b5" path="res://textures/mountains.png" id="1_oabld"]
+[ext_resource type="Texture2D" uid="uid://086km7icives" path="res://textures/cloudLayerB1.png" id="1_splo0"]
+[ext_resource type="Texture2D" uid="uid://m2b0gyaul0hb" path="res://textures/cloudLayer1.png" id="2_eq6nc"]
+[ext_resource type="Texture2D" uid="uid://qbs8mm35rnx3" path="res://textures/hills.png" id="2_i7s6n"]
+[ext_resource type="Texture2D" uid="uid://5c4mrhvj5wx5" path="res://textures/groundLayer2.png" id="5_eq6nc"]
+
+[node name="Background" type="Node2D" unique_id=1756348370]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=361440502]
+offset_left = -512.0
+offset_top = -601.0
+offset_right = 512.0
+offset_bottom = -275.0
+color = Color(0.56078434, 0.8901961, 1, 1)
+
+[node name="CloudLayerB1" type="Sprite2D" parent="." unique_id=946502545]
+position = Vector2(0, -309)
+texture = ExtResource("1_splo0")
+
+[node name="Mountains" type="Sprite2D" parent="." unique_id=692898785]
+position = Vector2(0, -200)
+texture = ExtResource("1_oabld")
+
+[node name="CloudLayer1" type="Sprite2D" parent="." unique_id=936993225]
+position = Vector2(0, -132)
+texture = ExtResource("2_eq6nc")
+
+[node name="Hills" type="Sprite2D" parent="." unique_id=1962009664]
+position = Vector2(0, 56)
+texture = ExtResource("2_i7s6n")
+
+[node name="GroundLayer2" type="Sprite2D" parent="." unique_id=1351889027]
+position = Vector2(0, 155)
+texture = ExtResource("5_eq6nc")
