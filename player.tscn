@@ -18,5 +18,3 @@ shape = SubResource("CapsuleShape2D_e2o6t")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=242514596]
 texture = ExtResource("1_4flbx")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=948573522]

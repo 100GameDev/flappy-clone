@@ -4,6 +4,7 @@ var pipe_scene := [
 	preload("res://pipe.tscn"),
 ]
 
+var viewport_y = 750
 
 func _ready() -> void:
 	get_node("Timer").timeout.connect(_on_timer_timeout)
@@ -12,10 +13,9 @@ func _on_timer_timeout() -> void:
 	var random_pipe_scene: PackedScene = pipe_scene.pick_random()
 	var pipe_instance := random_pipe_scene.instantiate()
 	add_child(pipe_instance)
-	var viewport_size := get_viewport_rect().size
 	var random_position := Vector2(0.0, 0.0)
-	random_position.x = 1500
-	random_position.y = randf_range(-800, viewport_size.y / 2)
+	random_position.x = 1000
+	random_position.y = randf_range(-viewport_y, viewport_y)
 	pipe_instance.position = random_position
 	pipe_instance.area_entered.connect(_on_area_entered)
 	

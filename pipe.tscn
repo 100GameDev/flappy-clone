@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cbhcl4o0e76nk" path="res://icon.svg" id="1_bepn3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_riqys"]
-size = Vector2(317, 1940)
+size = Vector2(279, 1907)
 
 [node name="pipe" type="Area2D" unique_id=1323642363]
 collision_layer = 2
@@ -43,3 +43,5 @@ texture = ExtResource("1_bepn3")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1744352929]
 position = Vector2(-0.5, 1185.5)
 shape = SubResource("RectangleShape2D_riqys")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

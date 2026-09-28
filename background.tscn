@@ -11,35 +11,35 @@ scale = Vector2(2, 2)
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=361440502]
 offset_left = -512.0
-offset_top = -601.0
+offset_top = -497.0
 offset_right = 512.0
-offset_bottom = -275.0
+offset_bottom = -171.0
 color = Color(0.56078434, 0.8901961, 1, 1)
 
 [node name="CloudLayerB1" type="Sprite2D" parent="." unique_id=946502545]
-position = Vector2(0, -309)
+position = Vector2(0, -205)
 texture = ExtResource("1_splo0")
 
 [node name="Mountains" type="Sprite2D" parent="." unique_id=692898785]
 modulate = Color(0, 0.54901963, 0.34509805, 0.47058824)
-position = Vector2(0, -200)
+position = Vector2(0, -96)
 texture = ExtResource("1_oabld")
 
 [node name="CloudLayer1" type="Sprite2D" parent="." unique_id=936993225]
-position = Vector2(0, -132)
+position = Vector2(0, -28)
 texture = ExtResource("2_eq6nc")
 
 [node name="Hills" type="Sprite2D" parent="." unique_id=1962009664]
 modulate = Color(0, 0.54901963, 0.34509805, 1)
-position = Vector2(0, 56)
+position = Vector2(0, 160)
 texture = ExtResource("2_i7s6n")
 
 [node name="GroundLayer2" type="Sprite2D" parent="." unique_id=1351889027]
 modulate = Color(0, 0.5647059, 0.34901962, 1)
-position = Vector2(0, 155)
+position = Vector2(0, 259)
 texture = ExtResource("5_eq6nc")
 
 [node name="GroundLayer3" type="Sprite2D" parent="." unique_id=1692732422]
 modulate = Color(0, 0.5803922, 0.3529412, 1)
-position = Vector2(0, 295.5)
+position = Vector2(0, 399.5)
 texture = ExtResource("5_eq6nc")
