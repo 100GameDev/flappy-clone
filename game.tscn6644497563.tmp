@@ -32,6 +32,5 @@ position = Vector2(0, 792)
 shape = SubResource("WorldBoundaryShape2D_fc0e3")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=38838272]
-visible = false
 
 [connection signal="body_entered" from="deathfloor" to="Player" method="_on_deathfloor_body_entered"]

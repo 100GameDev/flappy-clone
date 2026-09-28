@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://l7sauxs58l31"]
+
+[ext_resource type="Script" uid="uid://cn1fi54ssqm2x" path="res://pipe.gd" id="1_78010"]
+[ext_resource type="Texture2D" uid="uid://cbhcl4o0e76nk" path="res://icon.svg" id="1_bepn3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_riqys"]
+size = Vector2(317, 1940)
+
+[node name="pipe" type="Area2D" unique_id=1323642363]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_78010")
+
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=2101325187]
+position = Vector2(0, -367.5)
+scale = Vector2(2.5, 2.609376)
+
+[node name="Sprite2D3" type="Sprite2D" parent="CanvasGroup" unique_id=1159545746]
+position = Vector2(0, -368.86215)
+scale = Vector2(0.68, 4.768)
+texture = ExtResource("1_bepn3")
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasGroup" unique_id=1211473666]
+texture = ExtResource("1_bepn3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1706430569]
+position = Vector2(-0.5, -1170)
+shape = SubResource("RectangleShape2D_riqys")
+
+[node name="CanvasGroup2" type="CanvasGroup" parent="." unique_id=225050219]
+position = Vector2(0, 383)
+rotation = 3.1415927
+scale = Vector2(2.5, 2.609376)
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasGroup2" unique_id=484732483]
+texture = ExtResource("1_bepn3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="CanvasGroup2" unique_id=1095944100]
+position = Vector2(-3.3552864e-05, -367.71243)
+scale = Vector2(0.68, 4.768)
+texture = ExtResource("1_bepn3")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1744352929]
+position = Vector2(-0.5, 1185.5)
+shape = SubResource("RectangleShape2D_riqys")

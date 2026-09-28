@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dggkrju7fvhf2"]
+
+[ext_resource type="Script" uid="uid://bvfsdjtt7ii5u" path="res://random_pipe_placer.gd" id="1_c6gc4"]
+
+[node name="RandomPipePlacer" type="Node2D" unique_id=1553565105]
+script = ExtResource("1_c6gc4")
+
+[node name="Timer" type="Timer" parent="." unique_id=1284003790]
+wait_time = 2.0
+autostart = true
